@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T03:14:14.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="VRWFnfEnrvMaQkNwStw_" version="18.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-26T05:39:47.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="BWOPXv_at-8BCKqunu-d" version="18.1.2" type="github" pages="2">
   <diagram id="goZGwjNJ6O4jOZECSLIw" name="实验三 - 1">
-    <mxGraphModel dx="981" dy="532" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="484" dy="532" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,10 +56,70 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lHti6A9kxuwiEoPiKQFN" name="实验室三-2">
-    <mxGraphModel dx="1422" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2302" dy="1932" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7Uv7ZWaAb70qjjFFCwPM-1" value="Movie" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="395" y="-68" width="301" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="7Uv7ZWaAb70qjjFFCwPM-2" value="- _title :stiring&#xa;- _price：Price*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;" vertex="1" parent="7Uv7ZWaAb70qjjFFCwPM-1">
+          <mxGeometry y="26" width="301" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7Uv7ZWaAb70qjjFFCwPM-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="7Uv7ZWaAb70qjjFFCwPM-1">
+          <mxGeometry y="60" width="301" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="7Uv7ZWaAb70qjjFFCwPM-4" value="+ Movie(title:string,priceCode) : int&#xa;+ getPriceCode() :int&#xa;+ setPriceCode(priceCode : int) : void&#xa;+ getTitle():string&#xa;+ getCharge(daysRented :int):double&#xa;+ getFrequentRenterPoints(daysRented :int) :int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;" vertex="1" parent="7Uv7ZWaAb70qjjFFCwPM-1">
+          <mxGeometry y="68" width="301" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="5kNSxi8XFvwVcRtqy4rx-1" value="Rental" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="439" y="-307" width="220" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="5kNSxi8XFvwVcRtqy4rx-2" value="- _movie :Movie*&#xa;- _daysRented :int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;" vertex="1" parent="5kNSxi8XFvwVcRtqy4rx-1">
+          <mxGeometry y="26" width="220" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5kNSxi8XFvwVcRtqy4rx-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="5kNSxi8XFvwVcRtqy4rx-1">
+          <mxGeometry y="60" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5kNSxi8XFvwVcRtqy4rx-4" value="+Rental(movie : Movie *, daysRented):int&#xa;+getDaysRented() :int&#xa;+getMovie():Movie*&#xa;+getCharge() :double&#xa;+getFrequentRenterPoints :int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;" vertex="1" parent="5kNSxi8XFvwVcRtqy4rx-1">
+          <mxGeometry y="68" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5kNSxi8XFvwVcRtqy4rx-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;exitX=0.486;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5kNSxi8XFvwVcRtqy4rx-4" target="7Uv7ZWaAb70qjjFFCwPM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="621" y="23" as="sourcePoint" />
+            <mxPoint x="506" y="-72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzLRoP5Gxf3Gk_nG-Dks-1" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="424.5" y="-564" width="242" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="VzLRoP5Gxf3Gk_nG-Dks-2" value="- _name :string&#xa;- _rentals : vector&lt;Rencal *&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;" vertex="1" parent="VzLRoP5Gxf3Gk_nG-Dks-1">
+          <mxGeometry y="26" width="242" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="VzLRoP5Gxf3Gk_nG-Dks-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="VzLRoP5Gxf3Gk_nG-Dks-1">
+          <mxGeometry y="68" width="242" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VzLRoP5Gxf3Gk_nG-Dks-5" value="+ getTotalCharge() : doubel&#xa;+ getTotalFrequentRenterPoints() ：int&#xa;+ Customer(name :string)&#xa;+addRental(rental : Rental *) :void&#xa;+ getName() :string&#xa;+ statement() :void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;" vertex="1" parent="VzLRoP5Gxf3Gk_nG-Dks-1">
+          <mxGeometry y="76" width="242" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="VzLRoP5Gxf3Gk_nG-Dks-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;" edge="1" parent="1" source="VzLRoP5Gxf3Gk_nG-Dks-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="555.9200000000001" y="-129" as="sourcePoint" />
+            <mxPoint x="546" y="-306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzLRoP5Gxf3Gk_nG-Dks-8" value="Price" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="802" y="-65" width="301" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="VzLRoP5Gxf3Gk_nG-Dks-9" value="# CHILDRENS : int&#xa;# REGULAR :int&#xa;# NEW_RELEASE ；int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;" vertex="1" parent="VzLRoP5Gxf3Gk_nG-Dks-8">
+          <mxGeometry y="26" width="301" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="VzLRoP5Gxf3Gk_nG-Dks-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="VzLRoP5Gxf3Gk_nG-Dks-8">
+          <mxGeometry y="98" width="301" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VzLRoP5Gxf3Gk_nG-Dks-11" value="+ getPriceCode() :int&#xa;+ getCharge(daysRented :int) :double&#xa;+ getFrequentRenterPoints(daysRented :int) :int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;" vertex="1" parent="VzLRoP5Gxf3Gk_nG-Dks-8">
+          <mxGeometry y="106" width="301" height="107" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
