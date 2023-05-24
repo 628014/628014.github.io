@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" modified="2023-05-24T06:49:37.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="78H6BrXC3Tm2nQVVG_aZ" version="21.3.3" type="github">
+  <diagram name="第 1 页" id="QGSWpj-ZTHkV9E8kMbC9">
+    <mxGraphModel dx="1185" dy="647" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pwhv7w9-NoE2swniMT8n-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;fontStyle=1" edge="1" parent="1" source="Pwhv7w9-NoE2swniMT8n-1" target="Pwhv7w9-NoE2swniMT8n-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwhv7w9-NoE2swniMT8n-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span&gt;&lt;font face=&quot;等线&quot;&gt;基于&lt;/font&gt;Transformer&lt;font face=&quot;等线&quot;&gt;的多传感器信息特征提取&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;shadow=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="38" y="247" width="233" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwhv7w9-NoE2swniMT8n-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;fontStyle=1" edge="1" parent="1" source="Pwhv7w9-NoE2swniMT8n-2" target="Pwhv7w9-NoE2swniMT8n-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwhv7w9-NoE2swniMT8n-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;等线&quot;&gt;激光雷达&lt;/font&gt;-&lt;font face=&quot;等线&quot;&gt;相机的多模态融合&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;shadow=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="293" y="247" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwhv7w9-NoE2swniMT8n-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;3D&lt;font face=&quot;等线&quot;&gt;目标检测&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;shadow=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="491" y="247" width="176" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
