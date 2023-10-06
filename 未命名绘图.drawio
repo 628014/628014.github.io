@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T13:13:33.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.3" etag="sDn3tR7ckKmv8ik17qXQ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T13:18:42.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="duHIB559LMKWbauBVMls" version="22.0.3" type="github">
   <diagram name="第 1 页" id="IjWyurTq-ILXQwRQvEtv">
-    <mxGraphModel>
+    <mxGraphModel dx="1502" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pRw-AlsN8rjanIpTl_Nw-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;需求分析&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pRw-AlsN8rjanIpTl_Nw-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;数据收集与处理&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pRw-AlsN8rjanIpTl_Nw-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;算法设计&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pRw-AlsN8rjanIpTl_Nw-4" value="&lt;p class=&quot;MsoNormal&quot;&gt;模型建模&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pRw-AlsN8rjanIpTl_Nw-5" value="&lt;p class=&quot;MsoNormal&quot;&gt;展示系统开发&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pRw-AlsN8rjanIpTl_Nw-6" value="&lt;p class=&quot;MsoNormal&quot;&gt;测试优化&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
