@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T03:58:32.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="chncvwxqXL-KudvNyYtr" version="21.3.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-30T04:28:54.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4FU1Gxd02zi04U8yXDJR" version="21.3.8" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="246" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -61,7 +61,7 @@
         <mxCell id="pO1PlLlpX6BgmMhYATf7-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Helvetica;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pO1PlLlpX6BgmMhYATf7-17" target="pO1PlLlpX6BgmMhYATf7-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-17" value="借助&amp;nbsp;LLM的文本理解能力进行答案推理，生成可靠答案" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pO1PlLlpX6BgmMhYATf7-17" value="借助&amp;nbsp;LLM的文本理解能力进行答案推理，结合提示模板生成可靠答案" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="860" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pO1PlLlpX6BgmMhYATf7-19" value="结束一轮回答" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -81,7 +81,7 @@
         <mxCell id="pO1PlLlpX6BgmMhYATf7-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Helvetica;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pO1PlLlpX6BgmMhYATf7-25" target="pO1PlLlpX6BgmMhYATf7-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-25" value="准确将匹配到的文段中的答案融合大模型生成回答" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="pO1PlLlpX6BgmMhYATf7-25" value="准确将匹配到的文段中的答案融合大模型与提示模板生成回答" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="675" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pO1PlLlpX6BgmMhYATf7-29" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -93,57 +93,11 @@
         <mxCell id="pO1PlLlpX6BgmMhYATf7-32" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="815" y="427" width="30" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pO1PlLlpX6BgmMhYATf7-37" target="pO1PlLlpX6BgmMhYATf7-40">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1216.6666666666667" y="333.16666666666674" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-37" value="PDF、Word、Markdown和图片等多种相关语料篇章" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1058" y="293" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pO1PlLlpX6BgmMhYATf7-40">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1433.3333333333335" y="333.16666666666674" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-40" value="使用中文文本分割模型zh_core_web_sm&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1243" y="303" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-41" value="数据输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1178" y="304" width="66" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pO1PlLlpX6BgmMhYATf7-43" target="pO1PlLlpX6BgmMhYATf7-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-43" value="句子级文本" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1432" y="293" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-44" value="模型输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1361" y="302" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pO1PlLlpX6BgmMhYATf7-46" target="pO1PlLlpX6BgmMhYATf7-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-46" value="划分文段" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1432" y="427" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-48" value="设置最大文段长度为L(变量)，&lt;br&gt;按序抽取m个句子组成文段" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1330" y="385" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pO1PlLlpX6BgmMhYATf7-49" target="pO1PlLlpX6BgmMhYATf7-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-49" value="上下文拓展" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1244" y="437" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pO1PlLlpX6BgmMhYATf7-51" value="最终文段i&lt;br&gt;&lt;div&gt;[i-1段末尾内容&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;本文段（长度为N）&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;i+1段起始内容]&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1058" y="427" width="120" height="80" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="XXCvhHnXPWYsY6MiBfB2" name="划分语料">
-    <mxGraphModel dx="419" dy="432" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-129" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -178,7 +132,7 @@
         <mxCell id="E5J971-Q27gMZlBGy_2f-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1;fontFamily=Times New Roman;fontSize=10;verticalAlign=middle;horizontal=1;" edge="1" parent="1" source="E5J971-Q27gMZlBGy_2f-10" target="E5J971-Q27gMZlBGy_2f-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E5J971-Q27gMZlBGy_2f-10" value="&lt;div style=&quot;font-size: 10px; line-height: 150%;&quot;&gt;划分后文段 i&lt;/div&gt;&lt;div style=&quot;font-size: 10px; line-height: 150%;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 10px;&quot;&gt;(文段长度N &amp;lt;=L)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px; line-height: 150%;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 10px;&quot;&gt;1.——2.——...&lt;br style=&quot;font-size: 10px;&quot;&gt;m.——。&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Times New Roman;fontSize=10;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="E5J971-Q27gMZlBGy_2f-10" value="&lt;div style=&quot;font-size: 10px; line-height: 150%;&quot;&gt;划分后文段 i&lt;/div&gt;&lt;div style=&quot;font-size: 10px; line-height: 150%;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 10px;&quot;&gt;(文段长度N &amp;lt;= L)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px; line-height: 150%;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 10px;&quot;&gt;1.——2.——...&lt;br style=&quot;font-size: 10px;&quot;&gt;m.——。&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Times New Roman;fontSize=10;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="994" y="144" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="E5J971-Q27gMZlBGy_2f-11" value="设置最大文段长度为L(变量)，&lt;br style=&quot;font-size: 10px;&quot;&gt;按序抽取m个句子组成文段" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontFamily=Times New Roman;fontSize=10;horizontal=1;" vertex="1" parent="1">
@@ -194,13 +148,13 @@
           <mxGeometry x="612" y="141" width="132" height="85" as="geometry" />
         </mxCell>
         <mxCell id="E5J971-Q27gMZlBGy_2f-15" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;划分结束&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="747.5" y="153" width="58" height="24" as="geometry" />
+          <mxGeometry x="748" y="157" width="58" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="njtbPjjBvmQR5lldbw6k" name="模板内容">
-    <mxGraphModel dx="1219" dy="432" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,6 +172,59 @@
         </mxCell>
         <mxCell id="uVNdJJxEC3TgjfoNK1BZ-7" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px;&quot;&gt;注：“{&amp;nbsp; }”中内容根据传入的变量内容变化而变化。&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-163" y="221" width="590" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CXUJK7zn44fPAN5Ocjn6" name="多路召回">
+    <mxGraphModel dx="1254" dy="1298" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EbyetwXn2sGjW-jgFA0B-4" target="EbyetwXn2sGjW-jgFA0B-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EbyetwXn2sGjW-jgFA0B-4" target="EbyetwXn2sGjW-jgFA0B-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-4" value="用户Query" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EbyetwXn2sGjW-jgFA0B-6" target="EbyetwXn2sGjW-jgFA0B-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-6" value="bge-large-zh-v1.5进行表征嵌入得到语义" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="-19" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-17" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="19" width="55" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EbyetwXn2sGjW-jgFA0B-20" target="EbyetwXn2sGjW-jgFA0B-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-20" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;向量&lt;br&gt;数据库&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="409.5" y="38" width="48" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-26" value="向量查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="352" y="-1" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EbyetwXn2sGjW-jgFA0B-28" target="EbyetwXn2sGjW-jgFA0B-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-28" value="BM25算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="67" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-32" value="文本统计查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="358" y="84" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EbyetwXn2sGjW-jgFA0B-36" target="EbyetwXn2sGjW-jgFA0B-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-36" value="bge-reranker-large模型评估重排" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="501.5" y="28.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EbyetwXn2sGjW-jgFA0B-38" value="Top-k结果" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="701.5" y="28.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
